@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class InfoFornecedor {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -49,7 +49,6 @@ public class InfoFornecedor {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
-
-
+	
 	
 }
