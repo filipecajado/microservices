@@ -21,4 +21,6 @@
     <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="br.com.alura.microservice.fornecedor.controller.InfoController"/>
     <fullyQualifiedTypeName name="br.com.alura.microservice.fornecedor.controller.PedidoController"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.hystrix.EnableHystrix"/>
+    <fullyQualifiedTypeName name="com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand"/>
 </qualifiedTypeNameHistroy>

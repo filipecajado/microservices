@@ -4,6 +4,7 @@ org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-config-serve
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-eureka=6
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-eureka-server=2
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-feign=2
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-resilience4j=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=4
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=4
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=8
