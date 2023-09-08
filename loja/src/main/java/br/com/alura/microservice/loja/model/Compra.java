@@ -11,7 +11,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Compra {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -22,44 +22,12 @@ public class Compra {
 	
 	private String enderecoDestino;
 	
-	private Long voucher;
-	
 	private LocalDate dataParaEntrega;
+	
+	private Long voucher;
 	
 	@Enumerated(EnumType.STRING)
 	private CompraState state;
-
-	public CompraState getState() {
-		return state;
-	}
-
-	public void setState(CompraState state) {
-		this.state = state;
-	}
-
-	public Long getVoucher() {
-		return voucher;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public void setVoucher(Long voucher) {
-		this.voucher = voucher;
-	}
-
-	public LocalDate getDataParaEntrega() {
-		return dataParaEntrega;
-	}
-
-	public void setDataParaEntrega(LocalDate dataParaEntrega) {
-		this.dataParaEntrega = dataParaEntrega;
-	}
 
 	public Long getPedidoId() {
 		return pedidoId;
@@ -84,6 +52,37 @@ public class Compra {
 	public void setEnderecoDestino(String enderecoDestino) {
 		this.enderecoDestino = enderecoDestino;
 	}
-	
+
+	public LocalDate getDataParaEntrega() {
+		return dataParaEntrega;
+	}
+
+	public void setDataParaEntrega(LocalDate dataParaEntrega) {
+		this.dataParaEntrega = dataParaEntrega;
+	}
+
+	public Long getVoucher() {
+		return voucher;
+	}
+
+	public void setVoucher(Long voucher) {
+		this.voucher = voucher;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public CompraState getState() {
+		return state;
+	}
+
+	public void setState(CompraState state) {
+		this.state = state;
+	}
 	
 }
